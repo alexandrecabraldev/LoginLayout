@@ -38,5 +38,3 @@ Você pode personalizar este projeto modificando os seguintes arquivos:
 - `index.html` - Para modificar a estrutura do formulário ou adicionar novos elementos
 
 ---
-
-Projeto desenvolvido como parte do trabalho para Israel.
