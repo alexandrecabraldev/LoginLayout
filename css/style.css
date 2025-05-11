@@ -70,3 +70,77 @@ body {
 .btn-login:hover {
     background-color: #357abd;
 }
+
+.forgot-password a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para login social */
+.social-login {
+    margin-top: 25px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.separator::before {
+    margin-right: 10px;
+}
+
+.separator::after {
+    margin-left: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-social {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    color: white;
+}
+
+.btn-social:hover {
+    opacity: 0.9;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-google {
+    background-color: #db4437;
+}
+
+.btn-social i {
+    margin-right: 8px;
+    font-size: 18px;
+}
